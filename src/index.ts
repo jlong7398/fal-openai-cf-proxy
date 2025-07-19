@@ -101,10 +101,7 @@ interface FalSubscribeResult {
 const SYSTEM_PROMPT_LIMIT = 4800;
 
 const FAL_SUPPORTED_MODELS = [
-	"anthropic/claude-sonnet-4",
-	"anthropic/claude-opus-4",
-	"google/gemini-2.5-pro",
-	"moonshotai/kimi-k2",
+	"anthropic/claude-3.7-sonnet",
 	"openai/gpt-4o"
 ] as const; // Use 'as const' for stricter type checking
 
